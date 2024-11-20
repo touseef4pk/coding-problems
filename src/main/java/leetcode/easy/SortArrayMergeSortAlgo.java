@@ -1,6 +1,6 @@
 package main.java.leetcode.easy;
 
-public class SortArray {
+public class SortArrayMergeSortAlgo {
 
     public void mergeSort(int[] givenArray, int numberOfElements) {
 

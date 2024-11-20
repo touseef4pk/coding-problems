@@ -1,6 +1,6 @@
 package main.java;
 
-import main.java.leetcode.easy.SortArray;
+import main.java.leetcode.easy.SortArrayMergeSortAlgo;
 
 public class Main {
 
@@ -8,7 +8,7 @@ public class Main {
         System.out.println("Hello world!");
 
         //Merge sort an array
-        SortArray sortArray = new SortArray();
+        SortArrayMergeSortAlgo sortArray = new SortArrayMergeSortAlgo();
         sortArray.mergeSort(new int[]{73, 95, 48, 0, 1}, 5);
     }
 }
