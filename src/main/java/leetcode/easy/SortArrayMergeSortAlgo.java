@@ -76,7 +76,7 @@ public class SortArrayMergeSortAlgo {
     public static void main(String[] args) {
 
         int[] nums = {5, 2, 3, 1};
-        mergeSort(nums, nums.length);
+        mergeSort(nums);
         for (int num : nums) {
             System.out.print(num + " ");
         }
