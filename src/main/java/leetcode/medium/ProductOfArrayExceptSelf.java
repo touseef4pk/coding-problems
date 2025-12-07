@@ -9,8 +9,9 @@ public class ProductOfArrayExceptSelf {
         for (int i = 0; i < nums.length; i++) {
 
             if(first != nums[i]){
-                nums
+                //nums
             }
         }
+        return null;
     }
 }

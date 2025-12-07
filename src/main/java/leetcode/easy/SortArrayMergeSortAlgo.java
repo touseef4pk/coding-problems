@@ -1,5 +1,8 @@
 package main.java.leetcode.easy;
 
+import java.lang.reflect.Array;
+import java.util.Arrays;
+
 public class SortArrayMergeSortAlgo {
 
     public static void mergeSort(int[] givenArray) {
@@ -77,8 +80,6 @@ public class SortArrayMergeSortAlgo {
 
         int[] nums = {5, 2, 3, 1};
         mergeSort(nums);
-        for (int num : nums) {
-            System.out.print(num + " ");
-        }
+        System.out.println(Arrays.toString(nums));
     }
 }
