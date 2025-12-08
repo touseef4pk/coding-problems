@@ -36,6 +36,7 @@ public class BuySellStockInProfit {
     }
 
 
+    //efficient program
     public static int maximumProfit(int[] prices) {
 
         int profit = 0;
